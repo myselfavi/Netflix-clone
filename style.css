@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.side{
+    margin: 0 150px;
+}
+div.page1container{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(header-image.png);
+    position: relative;
+    background-size: cover;
+     background-position: center;
+    height: 100vh;
+
+}
+div.page1container nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    margin-top: 20px;
+    width: 150px;
+    height: 39px
+}
+nav .right{
+    margin-top: 20px;
+}
+button.lang{
+    width: 123px;
+    padding: 6px;
+    margin-right: 20px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 4px;
+    border: 1px solid white;
+    color: #ffff;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 6px;
+    width: 66px;
+    text-align: center;
+    font-size: 14px;
+}
+div.login{
+    text-align: center;
+    margin-top: 280px;
+}
+.login h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.login p{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+}
+#log{
+    margin-top: 10px;
+    height: 50px;
+    width: 400px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #ffff;
+}
+#start{
+    background-color: red;
+    padding: 15px;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+}
+ #start:hover{
+    opacity: 0.8;
+}
+div.enjoytv{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.enjoytv img{
+    margin-top: 50px;
+    height: 360px;
+    width: 460px
+}
+.enjoytv .left{
+    color: #ffff;
+    width: 530px;
+    margin-top: 50px;
+}
+.enjoytv h1{
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.enjoytv p{
+    float: left;
+    font-size: 25px;
+    margin-top: 10px;
+}
+hr{
+    height: 8px;
+    background-color:#242A2B;
+    border-width: 0;
+}
+
+div.Download {
+    display: flex;
+    justify-content: space-between;
+}
+.Download img{
+    margin-top: 50px;
+    height: 360px;
+    width: 460px
+}
+div.Download h1{
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 40px;
+}
+div.Download p{
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 28px;
+}
+.Download .right{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+div.profile{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+div.profile p{
+    font-size:25px;
+}
+div.profile h1{
+    font-size:50px;
+}
+div.question{
+    color: #ffff;
+}
+div.question h1{
+    margin-top: 40px;
+    text-align: center;
+}
+div.question .box{
+    background-color: aliceblue;
+    color: black;
+    padding: 25px;
+    cursor: pointer;
+    margin:10px;
+}
+div.question summary{
+    /* font: 100; */
+    font-size: 22px;
+}
+div.question p{
+    padding: 10px;
+    font-size: 22px;
+}
+details summary{
+    list-style-type: none;
+}
+details hr{
+    height: 1px;
+    width: 100%;
+    color: black;
+    
+}
+div.logonce{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+footer.last{
+    margin-top: 50px;
+    height: 350px;
+}
+ul {
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    font-size: 13px;
+}
+footer .container{
+    display: flex;
+    gap: 220px;
+    justify-content: ;
+    
+}
+#call{
+    margin-left: 10px;
+}
+.last a{
+    color: #d8d2c8;
+}
+footer div.right{
+    margin-top: 20px;
+}
+footer p{
+    color: #d8d2c8;
+    margin-top: 10px;
+    font-size: 14px;
+}
